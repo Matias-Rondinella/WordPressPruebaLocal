@@ -2928,7 +2928,7 @@ body {
 .ast-masthead-custom-menu-items .ast-dropdown-active .slide-search.astra-search-icon,
 .below-header-user-select .ast-dropdown-active .slide-search.astra-search-icon,
 .ast-above-header-section .user-select .ast-dropdown-active .slide-search.astra-search-icon {
-  color: #757575;
+  color: #ff0000;
 }
 
 .ast-search-menu-icon.slide-search .search-form {
@@ -4931,4 +4931,8 @@ input[type="color"]::-webkit-color-swatch {
 
 .ahfb-svg-iconset svg > * {
   transition: none;
+}
+
+.site-content{
+  background-color: #21759b;
 }

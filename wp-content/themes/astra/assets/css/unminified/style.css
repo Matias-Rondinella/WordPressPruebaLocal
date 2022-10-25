@@ -4933,6 +4933,6 @@ input[type="color"]::-webkit-color-swatch {
   transition: none;
 }
 
-.site-content{
+.ast-container{
   background-color: #21759b;
 }

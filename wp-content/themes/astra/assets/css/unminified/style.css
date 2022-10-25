@@ -99,6 +99,7 @@ html {
 
 body {
   margin: 0;
+  color: #0274be;
 }
 
 article,
@@ -2768,7 +2769,7 @@ body {
 }
 
 .main-header-bar {
-  background-color: #fff;
+  background-color: rgb(255, 0, 0);
   border-bottom-color: var(--ast-border-color);
   border-bottom-style: solid;
 }
@@ -4933,6 +4934,3 @@ input[type="color"]::-webkit-color-swatch {
   transition: none;
 }
 
-.ast-container{
-  background-color: #21759b;
-}

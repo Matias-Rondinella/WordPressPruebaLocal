@@ -5,17 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss c/xampp/htdocs/paginapruebalocal1/wp-content/themes/astra/assets/css/unminified/style.css",
+    "build-css": "node-sass --include-path scss wp-content/themes/astra/assets/scss/miEstilo.scss wp-content/themes/astra/assets/css/unminified/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Matias-Rondinella/WordPressPruebaLocal.git"
   },
-  "author": "",
+  "author": "Matias Rondinella",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Matias-Rondinella/WordPressPruebaLocal/issues"
   },
-  "homepage": "https://github.com/Matias-Rondinella/WordPressPruebaLocal#readme"
+  "homepage": "https://github.com/Matias-Rondinella/WordPressPruebaLocal#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
 }

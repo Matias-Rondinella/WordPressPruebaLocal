@@ -3967,8 +3967,3 @@ input[type="color"]::-webkit-color-swatch {
 
 .ahfb-svg-iconset svg > * {
   transition: none; }
-
-a {
-  font-size: 69px;
-  background-color: #0274be;
-  color: #b71f1f !important; }
